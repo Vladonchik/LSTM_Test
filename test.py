@@ -1,3 +1,8 @@
+import tensorflow as tf
+config = tf.ConfigProto()
+config.gpu_options.allow_growth = True
+session = tf.Session(config=config)
+
 import pandas as pd
 from collections import deque
 import random
@@ -9,12 +14,17 @@ from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint
 from sklearn import preprocessing
 import time
 
+#import os
+#os.environ["CUDA_VISIBLE_DEVICES"]="3"
+#gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.5)
+#sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options, log_device_placement=True))
+
 SEQ_LEN = 60  # how long of a preceeding sequence to collect for RNN
 FUTURE_PERIOD_PREDICT = 3  # how far into the future are we trying to predict?
 RATIO_TO_PREDICT = "LTC-USD"
 EPOCHS = 10  # how many passes through our data
 BATCH_SIZE = 64  # how many batches? Try smaller batch if you're getting OOM (out of memory) errors.
-NAME = f"{SEQ_LEN}-SEQ-{FUTURE_PERIOD_PREDICT}-PRED-{int(time.time())}"
+NAME = '{}-SEQ-{}-PRED-{}'.format(SEQ_LEN,FUTURE_PERIOD_PREDICT, int(time.time()))
 
 def classify(current, future):
     if float(future) > float(current):  # if the future price is higher than the current, that's a buy, or a 1
@@ -27,14 +37,14 @@ main_df = pd.DataFrame() # begin empty
 ratios = ["BTC-USD", "LTC-USD", "BCH-USD", "ETH-USD"]  # the 4 ratios we want to consider
 for ratio in ratios:  # begin iteration
     print(ratio)
-    dataset = f'training_datas/{ratio}.csv'  # get the full path to the file.
+    dataset = 'training_datas/{}.csv'.format(ratio)
     df = pd.read_csv(dataset, names=['time', 'low', 'high', 'open', 'close', 'volume'])  # read in specific file
 
     # rename volume and close to include the ticker so we can still which close/volume is which:
-    df.rename(columns={"close": f"{ratio}_close", "volume": f"{ratio}_volume"}, inplace=True)
+    df.rename(columns={"close": '{}_close'.format(ratio), "volume": '{}_volume'.format(ratio)}, inplace=True)
 
     df.set_index("time", inplace=True)  # set time as index so we can join them on this shared time
-    df = df[[f"{ratio}_close", f"{ratio}_volume"]]  # ignore the other columns besides price and volume
+    df = df[['{}_close'.format(ratio), '{}_volume'.format(ratio)]]  # ignore the other columns besides price and volume
 
     if len(main_df)==0:  # if the dataframe is empty
         main_df = df  # then it's just the current df
@@ -45,8 +55,9 @@ main_df.fillna(method="ffill", inplace=True)  # if there are gaps in data, use p
 main_df.dropna(inplace=True)
 #print(main_df.head())  # how did we do??
 
-main_df['future'] = main_df[f'{RATIO_TO_PREDICT}_close'].shift(-FUTURE_PERIOD_PREDICT)
-main_df['target'] = list(map(classify, main_df[f'{RATIO_TO_PREDICT}_close'], main_df['future']))
+
+main_df['future'] = main_df['{}_close'.format(RATIO_TO_PREDICT)].shift(-FUTURE_PERIOD_PREDICT)
+main_df['target'] = list(map(classify, main_df['{}_close'.format(RATIO_TO_PREDICT)], main_df['future']))
 
 #print(main_df.head())
 
@@ -111,9 +122,9 @@ def preprocess_df(df):
 train_x, train_y = preprocess_df(main_df)
 validation_x, validation_y = preprocess_df(validation_main_df)
 
-print(f"train data: {len(train_x)} validation: {len(validation_x)}")
-print(f"Dont buys: {train_y.count(0)}, buys: {train_y.count(1)}")
-print(f"VALIDATION Dont buys: {validation_y.count(0)}, buys: {validation_y.count(1)}")
+print('train data: {} validation: {}'.format(len(train_x), len(validation_x)))
+print('Dont buys: {}, buys: {}'.format(train_y.count(0), train_y.count(1)))
+print('VALIDATION Dont buys: {}, buys: {}'.format(validation_y.count(0), validation_y.count(1)))
 
 model = Sequential()
 model.add(CuDNNLSTM(128, input_shape=(train_x.shape[1:]), return_sequences=True))
