@@ -20,6 +20,7 @@ def series_to_supervised(data, n_in=1, n_out=1, dropnan=True):
     # input sequence (t-n, ... t-1)
     for i in range(n_in, 0, -1):
         cols.append(df.shift(i))
+
         names += [('var%d(t-%d)' % (j + 1, i)) for j in range(n_vars)]
     # forecast sequence (t, t+1, ... t+n)
     for i in range(0, n_out):
@@ -62,6 +63,7 @@ train = values[:n_train_hours, :]
 test = values[n_train_hours:, :]
 # split into input and outputs
 n_obs = n_hours * n_features
+
 train_X, train_y = train[:, :n_obs], train[:, -n_features]
 test_X, test_y = test[:, :n_obs], test[:, -n_features]
 print(train_X.shape, len(train_X), train_y.shape)

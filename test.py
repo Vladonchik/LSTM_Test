@@ -1,7 +1,11 @@
+#import os
+#os.environ["CUDA_VISIBLE_DEVICES"]="2"
+
 import tensorflow as tf
 config = tf.ConfigProto()
 config.gpu_options.allow_growth = True
 session = tf.Session(config=config)
+
 
 import pandas as pd
 from collections import deque
@@ -14,8 +18,6 @@ from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint
 from sklearn import preprocessing
 import time
 
-#import os
-#os.environ["CUDA_VISIBLE_DEVICES"]="3"
 #gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.5)
 #sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options, log_device_placement=True))
 
