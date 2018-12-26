@@ -2,15 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f7d707-dcca-44bd-8cab-94ceacd1c117" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReduceLRWithWarmRestart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helper_funcs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/match_scores_1991-2016_unindexed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbp_matches_atp_main_archive.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbp_matches_atp_main_current.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbp_matches_fu_main_archive.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbp_matches_itf_main_archive.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pbp_matches_itf_main_current.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pima-indians-diabetes.data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2008.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2009.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2010.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2011.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2012.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2013.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2014.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2015.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2016.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2017.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/2018.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/w2010.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/w2011.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/w2012.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/w2013.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/w2014.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/w2015.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/w2016.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/w2017.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting/w2018.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_betting_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_pro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tennis_pro_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/LSTM_SCRATCH.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LSTM_SCRATCH.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ggg.py" beforeDir="false" afterPath="$PROJECT_DIR$/ggg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/60-SEQ-3-PRED-1539646828/events.out.tfevents.1539646841.Vlads-MacBook-Pro.local" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/60-SEQ-3-PRED-1540312482/events.out.tfevents.1540312495.DESKTOP-CEV58AI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/60-SEQ-3-PRED-1540326540/events.out.tfevents.1540326552.DESKTOP-CEV58AI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/60-SEQ-3-PRED-1540326821/events.out.tfevents.1540326836.DESKTOP-CEV58AI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/60-SEQ-3-PRED-1540326907/events.out.tfevents.1540326920.DESKTOP-CEV58AI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/60-SEQ-3-PRED-1540327824/events.out.tfevents.1540327842.DESKTOP-CEV58AI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/60-SEQ-3-PRED-1540329338/events.out.tfevents.1540329353.DESKTOP-CEV58AI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/60-SEQ-3-PRED-1540329431/events.out.tfevents.1540329448.DESKTOP-CEV58AI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/60-SEQ-3-PRED-1540329486/events.out.tfevents.1540329497.DESKTOP-CEV58AI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/60-SEQ-3-PRED-1540329627/events.out.tfevents.1540329640.DESKTOP-CEV58AI" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/60-SEQ-3-PRED-1540327824" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RNN_Final-01-0.542.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RNN_Final-02-0.550.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RNN_Final-03-0.517.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RNN_Final-04-0.554.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RNN_Final-05-0.577.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RNN_Final-06-0.566.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RNN_Final-07-0.571.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RNN_Final-08-0.564.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RNN_Final-09-0.572.model" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/RNN_Final-10-0.579.model" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_Sasha's_Data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_Sasha's_Data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,53 +108,89 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main.py">
+      <file leaf-file-name="tennis.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tennis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="180">
+              <caret line="33" column="17" selection-start-line="33" selection-end-line="34" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Btf.py">
+      <file leaf-file-name="tennis_pro.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tennis_pro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="95" column="91" selection-start-line="95" selection-start-column="91" selection-end-line="95" selection-end-column="91" />
+            <state relative-caret-position="675">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1544569538397" expanded="true" signature="7238:7779" ph="..." />
+                <marker date="1544569538397" expanded="true" signature="11377:11491" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ggg.py">
+      <file leaf-file-name="tennis_pro_1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tennis_pro_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="735">
+              <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file leaf-file-name="tennis_betting_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tennis_betting_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+            <state relative-caret-position="494">
+              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1545612993526" expanded="true" signature="9377:9552" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/try.py">
+      <file leaf-file-name="saving.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/saving.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+            <state relative-caret-position="5580">
+              <caret line="387" column="4" selection-start-line="387" selection-start-column="4" selection-end-line="387" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="normalization.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/normalization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="network.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/network.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17820">
+              <caret line="1212" selection-start-line="1212" selection-end-line="1212" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="convolutional.py" pinned="false" current-in-tab="false">
+        <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/convolutional.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4620">
+              <caret line="332" column="17" selection-start-line="332" selection-start-column="17" selection-end-line="332" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -116,11 +206,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>drop</find>
+      <find>conca</find>
+      <find>print</find>
+      <find>server</find>
+      <find>save</find>
+      <find>df</find>
+      <find>hah</find>
+      <find>concat</find>
+      <find>batch</find>
       <find>exit</find>
-      <find>scaler</find>
-      <find>CuDNNLSTM</find>
-      <find>B</find>
+      <find>batchno</find>
+      <find>import layer</find>
+      <find>load_model</find>
+      <find>layerno</find>
+      <find>points_won</find>
+      <find>first_win_points</find>
+      <find>pbp_num</find>
+      <find>score_num</find>
+      <find>y</find>
+      <find>EXIT</find>
+      <find>EXECUTE_MODEL</find>
+      <find>player1_details</find>
+      <find>Barbora Krejcikova</find>
+      <find>Sarra Ata</find>
+      <find>scalar_server_1</find>
+      <find>first</find>
+      <find>first_win_games</find>
+      <find>compile</find>
+      <find>player2_details</find>
+      <find>plat</find>
+      <find>dropna</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,17 +248,24 @@
         <option value="$PROJECT_DIR$/BTF.py" />
         <option value="$PROJECT_DIR$/Btf.py" />
         <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/keras/applications/densenet/__init__.py" />
-        <option value="$PROJECT_DIR$/ggg.py" />
         <option value="$PROJECT_DIR$/Main.py" />
+        <option value="$PROJECT_DIR$/Candle_BTCUSD.csv" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/test_Sasha's_Data.py" />
+        <option value="$PROJECT_DIR$/models/tennis_model.json" />
+        <option value="$PROJECT_DIR$/ggg.py" />
+        <option value="$PROJECT_DIR$/tennis.py" />
+        <option value="$PROJECT_DIR$/tennis_pro_1.py" />
+        <option value="$PROJECT_DIR$/tennis_pro.py" />
+        <option value="$PROJECT_DIR$/helper_funcs.py" />
+        <option value="$PROJECT_DIR$/tennis_betting_data.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="20" />
-    <option name="width" value="1262" />
-    <option name="height" value="692" />
+    <option name="y" value="23" />
+    <option name="width" value="1247" />
+    <option name="height" value="951" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -155,8 +277,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="LSTM_Test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LSTM_Test" type="462c0819:PsiDirectoryNode" />
+              <item name="LSTM_SCRATCH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LSTM_SCRATCH" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LSTM_SCRATCH" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LSTM_SCRATCH" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -165,14 +292,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/training.py" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/vladvyshnevskyy/Desktop/Code/Git/LSTM_SCRATCH/helper_funcs.py" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Venv" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/training_datas" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tennis_betting" />
+      <recent name="$PROJECT_DIR$/training_datas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -187,8 +315,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="Btf" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.tennis_betting_data">
+    <configuration name="helper_funcs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LSTM_SCRATCH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -200,16 +328,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Btf.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helper_funcs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tennis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LSTM_SCRATCH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,16 +346,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tennis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="ggg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tennis_betting_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LSTM_SCRATCH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,16 +364,13 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ggg.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tennis_betting_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tennis_pro" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LSTM_SCRATCH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -263,27 +382,44 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tennis_pro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
+    </configuration>
+    <configuration name="tennis_pro_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LSTM_SCRATCH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tennis_pro_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.Main" />
-      <item itemvalue="Python.ggg" />
-      <item itemvalue="Python.Btf" />
-      <item itemvalue="Python.test" />
+      <item itemvalue="Python.tennis" />
+      <item itemvalue="Python.tennis_pro" />
+      <item itemvalue="Python.helper_funcs" />
+      <item itemvalue="Python.tennis_pro_1" />
+      <item itemvalue="Python.tennis_betting_data" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Main" />
-        <item itemvalue="Python.ggg" />
-        <item itemvalue="Python.Btf" />
+        <item itemvalue="Python.tennis_betting_data" />
+        <item itemvalue="Python.tennis_pro_1" />
+        <item itemvalue="Python.tennis_pro" />
+        <item itemvalue="Python.tennis" />
+        <item itemvalue="Python.helper_funcs" />
       </list>
     </recent_temporary>
   </component>
@@ -305,30 +441,37 @@
       <option name="project" value="LOCAL" />
       <updated>1540328450877</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test_sasha's data">
+      <created>1540389331571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540389331571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="20" width="1262" height="692" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1247" height="951" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21568628" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5268817" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44425955" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2149158" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5003647" side_tool="true" weight="0.29612756" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996353" weight="0.39537573" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44228572" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -336,92 +479,377 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="working gpu" />
-    <option name="LAST_COMMIT_MESSAGE" value="working gpu" />
+    <MESSAGE value="test_sasha's data" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_sasha's data" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test.py</url>
+          <line>124</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="50" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/vm/lib/python3.6/site-packages/pandas/core/generic.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/preprocessing/label.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/base_layer.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/recurrent.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/sequential.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/utils/validation.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py" />
-    <entry file="file://$USER_HOME$/vm/lib/python3.6/site-packages/pandas/core/frame.py" />
-    <entry file="file://$PROJECT_DIR$/sp500.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/preprocessing/data.py" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/924424170/numpy/core/multiarray.py" />
-    <entry file="file://$PROJECT_DIR$/Candle_BTCUSD.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/convolutional_recurrent.py" />
-    <entry file="file://$PROJECT_DIR$/pollution.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="43662" column="3" selection-start-line="43662" selection-start-column="3" selection-end-line="43662" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/training.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/core.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/framework/ops.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/keras/applications/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/tensorflow/keras/applications/densenet/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Btf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="95" column="91" selection-start-line="95" selection-start-column="91" selection-end-line="95" selection-end-column="91" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ggg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="1470">
+          <caret line="119" selection-start-line="119" selection-end-line="121" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/try.py">
+    <entry file="file://$PROJECT_DIR$/tennis_pro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+        <state relative-caret-position="375">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1544569538397" expanded="true" signature="7238:7779" ph="..." />
+            <marker date="1544569538397" expanded="true" signature="11377:11491" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/xgboost/sklearn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="428" column="8" selection-start-line="428" selection-start-column="8" selection-end-line="428" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/decomposition/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="135" column="8" selection-start-line="135" selection-start-column="8" selection-end-line="135" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="320" selection-start-line="320" selection-end-line="320" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/match_scores_1991-2016_unindexed.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="225">
+          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_Sasha's_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="76" column="59" selection-start-line="72" selection-start-column="4" selection-end-line="76" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/keras/layers/recurrent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-652">
+          <caret line="2171" column="6" selection-start-line="2171" selection-start-column="6" selection-end-line="2171" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/tennis_model.h5" />
+    <entry file="file://$PROJECT_DIR$/models/tennis_model.json" />
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/model_selection/_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1962" column="4" selection-start-line="1962" selection-start-column="4" selection-end-line="1962" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/utils/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/contrib/graph_editor/reroute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="77" column="2" selection-start-line="77" selection-start-column="2" selection-end-line="77" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/924424170/numpy/core/multiarray.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="2349" column="4" selection-start-line="2349" selection-start-column="4" selection-end-line="2349" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/ops/embeddings_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/preprocessing/categorical.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        <state relative-caret-position="519">
+          <caret line="169" column="42" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/externals/joblib/externals/cloudpickle/cloudpickle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/estimator/inputs/pandas_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/learn_io/pandas_io.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/estimators/estimator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="489" column="6" selection-start-line="489" selection-start-column="6" selection-end-line="489" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/preprocessing/_encoders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="272" column="8" selection-start-line="272" selection-start-column="8" selection-end-line="272" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/merge.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="339" column="8" selection-start-line="339" selection-start-column="8" selection-end-line="339" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/embeddings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/base_layer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="278" selection-start-line="278" selection-end-line="278" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/sequential.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../vm/lib/python3.6/site-packages/pandas/io/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/utils/vis_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/pydot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="1761" column="8" selection-start-line="1761" selection-start-column="8" selection-end-line="1761" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atp_matches_qual_chall_2018.csv" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="1040" column="8" selection-start-line="1040" selection-start-column="8" selection-end-line="1040" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ggg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="119" selection-start-line="119" selection-end-line="121" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4620">
+          <caret line="332" column="17" selection-start-line="332" selection-start-column="17" selection-end-line="332" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17820">
+          <caret line="1212" selection-start-line="1212" selection-end-line="1212" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/contrib/learn/python/learn/estimators/linear.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="400" column="6" selection-start-line="400" selection-start-column="6" selection-end-line="400" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/engine/saving.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5580">
+          <caret line="387" column="4" selection-start-line="387" selection-start-column="4" selection-end-line="387" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/924424170/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="1080" column="8" selection-start-line="1080" selection-start-column="8" selection-end-line="1080" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../vm/lib/python3.6/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="3088" column="4" selection-start-line="3088" selection-start-column="4" selection-end-line="3088" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../vm/lib/python3.6/site-packages/dateutil/tz/tz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/utils/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="589" selection-start-line="589" selection-end-line="589" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../vm/lib/python3.6/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="3795" column="8" selection-start-line="3795" selection-start-column="8" selection-end-line="3795" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../vm/lib/python3.6/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/sklearn/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="437" column="8" selection-start-line="437" selection-start-column="8" selection-end-line="437" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../vm/lib/python3.6/site-packages/pandas/core/indexes/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="2524" selection-start-line="2524" selection-end-line="2524" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tennis_pro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1544569538397" expanded="true" signature="7238:7779" ph="..." />
+            <marker date="1544569538397" expanded="true" signature="11377:11491" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tennis_pro_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helper_funcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tennis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="33" column="17" selection-start-line="33" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/keras/layers/normalization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tennis_betting_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1545612993526" expanded="true" signature="9377:9552" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -18,7 +18,7 @@ from tensorflow.keras.callbacks import TensorBoard, ModelCheckpoint
 from sklearn import preprocessing
 import time
 
-#gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=0.5)
+#gpu_options = tf.GPUOptions(per_proce ss_gpu_memory_fraction=0.5)
 #sess = tf.Session(config=tf.ConfigProto(gpu_options=gpu_options, log_device_placement=True))
 
 SEQ_LEN = 60  # how long of a preceeding sequence to collect for RNN

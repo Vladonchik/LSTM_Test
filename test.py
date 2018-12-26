@@ -81,12 +81,12 @@ def preprocess_df(df):
 
     df.dropna(inplace=True)  # cleanup again... jic.
 
-
     sequential_data = []  # this is a list that will CONTAIN the sequences
     prev_days = deque(maxlen=SEQ_LEN)  # These will be our actual sequences. They are made with deque, which keeps the maximum length by popping out older values as new ones come in
 
     for i in df.values:  # iterate over the values
         prev_days.append([n for n in i[:-1]])  # store all but the target
+
         if len(prev_days) == SEQ_LEN:  # make sure we have 60 sequences!
             sequential_data.append([np.array(prev_days), i[-1]])  # append those bad boys!
 
@@ -129,15 +129,17 @@ print('Dont buys: {}, buys: {}'.format(train_y.count(0), train_y.count(1)))
 print('VALIDATION Dont buys: {}, buys: {}'.format(validation_y.count(0), validation_y.count(1)))
 
 model = Sequential()
-model.add(CuDNNLSTM(128, input_shape=(train_x.shape[1:]), return_sequences=True))
+# print(train_x.shape)
+# shape (60 , 8)
+model.add(LSTM(128, input_shape=(train_x.shape[1:]), return_sequences=True))
 model.add(Dropout(0.2))
 model.add(BatchNormalization())
 
-model.add(CuDNNLSTM(128, return_sequences=True))
+model.add(LSTM(128, return_sequences=True))
 model.add(Dropout(0.1))
 model.add(BatchNormalization())
 
-model.add(CuDNNLSTM(128))
+model.add(LSTM(128))
 model.add(Dropout(0.2))
 model.add(BatchNormalization())
 
@@ -145,7 +147,6 @@ model.add(Dense(32, activation='relu'))
 model.add(Dropout(0.2))
 
 model.add(Dense(2, activation='softmax'))
-
 
 opt = tf.keras.optimizers.Adam(lr=0.001, decay=1e-6)
 
